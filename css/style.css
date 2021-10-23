@@ -4099,12 +4099,6 @@ button:focus {
   margin-top: 15px;
 }
 
-.mbike__icon img {
-  width: 38px;
-  height: 38px;
-  margin: 0 auto;
-}
-
 .bike-service img {
   width: 38px;
   height: 38px;
@@ -4129,6 +4123,12 @@ button:focus {
   margin: 0 auto;
   height: 70px;
   text-align: center;
+}
+
+.mbike__icon img {
+  width: 38px;
+  height: 38px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */
