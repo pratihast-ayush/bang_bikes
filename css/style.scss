@@ -4509,7 +4509,14 @@ button {
 }
 
 
-
+.mbikeicons {
+	
+	img{
+    width: 38px;
+    height: 38px;
+}
+	
+}
 
 .bike-service {
 	
@@ -4528,7 +4535,6 @@ button {
     max-width: 315px;
     padding: 10px 15px;
     color: #333333;
-    text-align: left;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -4536,12 +4542,4 @@ button {
 		}
 	
 }
-
-.mbike__icon {
-		img {
-			width: 38px;
-			height: 38px;
-			margin: 0 auto;
-		}
-	}
 
