@@ -189,3 +189,16 @@ $(() => {
 		closeMapModal.removeClass("active");
 	});
 });
+
+
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 300) {
+        $('.getprice-form').addClass('fixed-header');
+        $('.getprice-form').addClass('visible-title');
+    }
+    else {
+        $('.getprice-form').removeClass('fixed-header');
+        $('.getprice-form').removeClass('visible-title');
+    }
+});
+
