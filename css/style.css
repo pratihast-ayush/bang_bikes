@@ -4161,4 +4161,57 @@ button:focus {
   margin-left: 10px;
 }
 
+.bang-price .address__form {
+  margin-top: 30px;
+}
+.bang-price .address__form .add__address .icon {
+  margin-right: 10px;
+}
+.bang-price .address__form .add__address .icon img {
+  width: 18px;
+  height: 18px;
+}
+.bang-price .address__form .add__address a {
+  margin-left: 15px;
+  border-radius: 10px;
+  padding: 12px 15px;
+  background: #f2f2fb;
+  color: #345ff1;
+  font-size: 14px;
+  min-width: 114px;
+  text-align: center;
+}
+.bang-price .address__form .form {
+  margin-top: 30px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+.bang-price .address__form .form input {
+  font-weight: 600;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  color: #333333;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 10px 15px;
+  height: initial;
+  font-size: 14px;
+}
+.bang-price .address__form .form input::placeholder {
+  color: #8c8c8c;
+}
+.bang-price .address__form .form input:not(:last-child) {
+  margin-right: 20px;
+}
+.bang-price .address__form .form input:focus {
+  border-color: #1069d7;
+  background: rgba(16, 105, 215, 0.1);
+  outline: none;
+  box-shadow: none;
+}
+
 /*# sourceMappingURL=style.css.map */
