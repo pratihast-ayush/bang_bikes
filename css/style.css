@@ -3479,8 +3479,8 @@ button:focus {
 }
 .address__map__page .map__bg__frame iframe {
   width: 100%;
-  min-height: 100vh;
-  height: 450px;
+  min-height: 70vh;
+  height: 350px;
   position: relative;
   z-index: 9;
 }
