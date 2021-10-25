@@ -4564,72 +4564,23 @@ box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.2);
 }
 
 
-.bang-price{
+.address-mapft{
+	
 	
 	.address__form {
+		padding: 15px 0;
 		margin-top: 30px;
-
-		.add__address {
-			.icon {
-				margin-right: 10px;
-
-				img {
-					width: 18px;
-					height: 18px;
-				}
-			}
-
-			a {
-				margin-left: 15px;
-				border-radius: 10px;
-				padding: 12px 15px;
-				background: #f2f2fb;
-				color: $lightBlue;
-				font-size: 14px;
-				min-width: 114px;
-				text-align: center;
-			}
+		background: #fafafa;
+		
 		}
-
-		.form {
-			margin-top: 30px;
-			padding: 30px;
-			background: #fff;
-			border-radius: 10px;
-			border: 1px solid #ddd;
-
-			input {
-				font-weight: 600;
-				background: #fff;
-				border: 1px solid #ddd;
-				border-radius: 10px;
-				color: $secondary;
-				-webkit-appearance: none;
-				-moz-appearance: none;
-				appearance: none;
-				padding: 10px 15px;
-				height: initial;
-				font-size: 14px;
-
-				&::placeholder {
-					color: lighten($secondary, 35);
-				}
-
-				&:not(:last-child) {
-					margin-right: 20px;
-				}
-
-				&:focus {
-					border-color: $primary;
-					background: rgba($primary, 0.1);
-					outline: none;
-					box-shadow: none;
-				}
-			}
-		}
-	}
 	
-	
-	
+	a {
+    border-radius: 10px;
+    padding: 12px 15px;
+    background: #f2f2fb;
+    color: #345ff1;
+    font-size: 14px;
+    min-width: 114px;
+    text-align: center;
 }
-
+}
