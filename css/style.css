@@ -4094,9 +4094,9 @@ button:focus {
 .phone__number__page .cus__btn {
   padding: 12px 24px;
   border-radius: 10px;
-  color: #fff;
+  color: #345ff1;
   border: none;
-  background: linear-gradient(-45deg, #3059e9, #2748d6, #1c34bc, #040e88);
+  background-color: #f2f2fb;
   max-width: 304px;
   margin: 20px auto 0;
 }
