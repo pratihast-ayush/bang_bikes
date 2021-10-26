@@ -4367,7 +4367,7 @@ button {
 	}
 
 	.desc {
-		font-size: 14px;
+		font-size: 14px; color: #838383;
 	}
 
 	.service__items {
@@ -4397,10 +4397,19 @@ button {
 				}
 
 				.title {
-					font-size: 22px;
+					font-size: 18px;
 					font-weight: 600;
-					margin-top: 10px;
+					margin-top: 10px; text-transform: uppercase;
 				}
+				
+				a {
+    border-radius: 10px;
+    padding: 12px 15px;
+    background: #f2f2fb;
+    color: #345ff1;
+    font-size: 14px;
+    margin-top: 15px;
+}
 			}
 		}
 	}
