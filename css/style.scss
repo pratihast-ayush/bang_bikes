@@ -2914,7 +2914,6 @@ button {
 
 .packages__page {
 	margin: 30px 0 0;
-	color: $text;
 
 	.card__blue,
 	.card__black,
@@ -2942,7 +2941,7 @@ button {
 		padding: 0 40px 20px 0;
 		overflow-x: visible;
 		overflow-y: hidden;
-		max-height: 240px;
+		height: 300px;
 
 		&::-webkit-scrollbar {
 			background: transparent;
@@ -2960,7 +2959,6 @@ button {
 
 	.desc {
 		font-size: 18px;
-		margin-top: 30px;
 	}
 
 	.cus__btn {
@@ -2991,19 +2989,16 @@ button {
 
 			li {
 				font-size: 14px;
-				background: #fff;
+				
 				border-radius: 6px;
-				box-shadow: 0 3px 15px rgba($text, 0.1);
+				
 				padding: 15px;
 
 				&:not(:last-child) {
 					margin-bottom: 15px;
 				}
 
-				img {
-					margin-top: 2px;
-					margin-right: 10px;
-				}
+				
 			}
 		}
 	}
@@ -4617,7 +4612,10 @@ box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.2);
     overflow-x: visible;
     overflow-y: hidden;
 }
-.cards__slider{background-color:#fff!important}		
+.cards__slider{background-color:#fff!important;
+		
+	.card__item{ height:280px;}
+		}		
 }
 	
 }

@@ -2754,7 +2754,6 @@ button:focus {
 
 .packages__page {
   margin: 30px 0 0;
-  color: #838383;
 }
 .packages__page .card__blue .title,
 .packages__page .card__black .title,
@@ -2776,7 +2775,7 @@ button:focus {
   padding: 0 40px 20px 0;
   overflow-x: visible;
   overflow-y: hidden;
-  max-height: 240px;
+  height: 300px;
 }
 .packages__page .slick-list::-webkit-scrollbar {
   background: transparent;
@@ -2790,7 +2789,6 @@ button:focus {
 }
 .packages__page .desc {
   font-size: 18px;
-  margin-top: 30px;
 }
 .packages__page .cus__btn {
   padding: 12px 50px;
@@ -2816,17 +2814,11 @@ button:focus {
 }
 .packages__page .service__items ul li {
   font-size: 14px;
-  background: #fff;
   border-radius: 6px;
-  box-shadow: 0 3px 15px rgba(131, 131, 131, 0.1);
   padding: 15px;
 }
 .packages__page .service__items ul li:not(:last-child) {
   margin-bottom: 15px;
-}
-.packages__page .service__items ul li img {
-  margin-top: 2px;
-  margin-right: 10px;
 }
 .packages__page .total__package {
   position: fixed;
@@ -4207,6 +4199,9 @@ button:focus {
 }
 .packages__page .cards__home .cards__slider {
   background-color: #fff !important;
+}
+.packages__page .cards__home .cards__slider .card__item {
+  height: 280px;
 }
 
 /*# sourceMappingURL=style.css.map */
