@@ -2775,7 +2775,7 @@ button:focus {
   padding: 0 40px 20px 0;
   overflow-x: visible;
   overflow-y: hidden;
-  height: 300px;
+  height: 320px;
 }
 .packages__page .slick-list::-webkit-scrollbar {
   background: transparent;
