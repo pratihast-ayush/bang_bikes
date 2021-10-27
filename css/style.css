@@ -2776,7 +2776,7 @@ button:focus {
   padding: 0 40px 20px 0;
   overflow-x: visible;
   overflow-y: hidden;
-  max-height: 233px;
+  max-height: 240px;
 }
 .packages__page .slick-list::-webkit-scrollbar {
   background: transparent;
@@ -4194,6 +4194,19 @@ button:focus {
   background-color: #f2f2fb;
   max-width: 304px;
   margin: 0px 5px;
+}
+.packages__page .cards__home {
+  background: #fff;
+  padding: 0;
+}
+.packages__page .cards__home .slick-list {
+  padding: 0;
+  margin-bottom: 20px;
+  overflow-x: visible;
+  overflow-y: hidden;
+}
+.packages__page .cards__home .cards__slider {
+  background-color: #fff !important;
 }
 
 /*# sourceMappingURL=style.css.map */

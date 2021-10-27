@@ -2942,7 +2942,7 @@ button {
 		padding: 0 40px 20px 0;
 		overflow-x: visible;
 		overflow-y: hidden;
-		max-height: 233px;
+		max-height: 240px;
 
 		&::-webkit-scrollbar {
 			background: transparent;
@@ -4606,6 +4606,20 @@ box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.2);
     max-width: 304px;
     margin: 0px 5px;
 }
+	
+	.cards__home {
+    background: #fff;
+    padding: 0;
+		
+		.slick-list {
+    padding: 0;
+    margin-bottom: 20px;
+    overflow-x: visible;
+    overflow-y: hidden;
+}
+.cards__slider{background-color:#fff!important}		
+}
+	
 }
 
 
