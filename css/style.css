@@ -2801,7 +2801,7 @@ button:focus {
 }
 .packages__page .service__items {
   background: #fafafa;
-  padding: 30px 0 150px;
+  padding: 30px 0 30px;
   margin-top: 30px;
 }
 .packages__page .service__items .heading h1 {
